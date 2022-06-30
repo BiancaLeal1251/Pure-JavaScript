@@ -17,7 +17,9 @@ Below you can see how the layout looks now in two scenarios:
 1. During the game;
 2. If the player fails and hits an obstacle.
 
+![image](https://user-images.githubusercontent.com/90285738/176573766-c4f8c547-a662-474a-82a6-ab335eccc17a.png)
 
+![image](https://user-images.githubusercontent.com/90285738/176574400-bb991204-e8df-4a7c-96a4-11d2058a50ab.png)
 
 
 To start the project, do the following:
