@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<div class="container">
+    <div class="content">
+        <h2 class="text_shadows">Snake Game</h2>
+    </div>
+
+    <div class="score"></div>
+    <div class="grid"></div>
+    <div class="button">
+
+        <table class="button-icons" border="0" cellpading="0" cellspacing="0" align="center" width="300">
+            <tr>
+                <td align="center" width="300"> <button class="top" onclick="clickTop()"><img
+                            src="./assets/up-arrow.png" width="55" height="auto"></button>
+                </td>
+            </tr>
+        </table>
+        <table class="button-icons" border="0" cellpading="0" cellspacing="0" align="center" width="200">
+            <tr>
+                <td align="left" width="100"> <button class="left" onclick="clickLeft()"><img
+                            src="./assets/left-arrow.png" width="55" height="auto"></button>
+                </td>
+                <td align="right" width="100"> <button class="right" onclick="clickRight()"><img
+                            src="./assets/right-arrow.png" width="55" height="auto"></button>
+                </td>
+            </tr>
+        </table>
+        <table class="button-icons" border="0" cellpading="0" cellspacing="0" align="center" width="300">
+            <tr>
+                <td align="center" width="300"> <button class="bottom" onclick="clickBottom()"><img
+                            src="./assets/down-arrow.png" width="55" height="auto"></button>
+                </td>
+            </tr>
+        </table>
+
+        <h3 class="button-icons-instructions">You can play it using the buttons above or your PC keyboard.</h3>
+    </div>
+    <div class="popup-modal">
+        <!-- The Modal -->
+        <div id="message-modal" class="popup-modal-items">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-content-components">
+                    <div class="modal-content-image">
+                        <h1 class="modal-content-image-message">Oops... You hit something!</h1>
+                        <img src="./assets/snake-modal.gif" alt="Snake Ilustration" class="modal-content-image-gif">
+                    </div>
+                    <div class="modal-content-button">
+                        <button class="playAgain">
+                            <span class="playAgainText ">Play again!</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
